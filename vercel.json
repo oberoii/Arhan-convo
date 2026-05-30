@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "RAVAN-CONVO.py",
+      "src": "api/*.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "RAVAN-CONVO.py"
+      "dest": "api/RAVAN-CONVO.py"
     }
   ]
 }
